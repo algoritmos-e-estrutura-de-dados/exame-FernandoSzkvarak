@@ -31,6 +31,7 @@ def maximizar_troca_de_figurinhas(figurinhas_da_maria, figurinhas_da_joao):
                     figurinhas_da_joao.remove(figurinha1)
                 contador = 0
             troca = len(figurinhas_da_joao)
+        else:
             for figurinha1 in figurinhas_da_maria:
                 for figurinha2 in figurinhas_da_joao:
                     if figurinha1 == figurinha2:
